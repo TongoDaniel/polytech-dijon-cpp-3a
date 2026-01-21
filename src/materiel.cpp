@@ -8,6 +8,10 @@ std::string Materiel::nom() const{
     return nom_;
 }
 
+std::string Materiel::idLocation() const{
+    return idLocalisation_;
+}
+
 std::string Materiel::type(){
     if (type_ == TypeDevice::POSTE_TRAVAIL) return "Poste de travail";
     if (type_ == TypeDevice::PETIT_MATERIEL) return "Petit materiel";

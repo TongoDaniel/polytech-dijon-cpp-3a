@@ -17,13 +17,14 @@ public:
     Materiel(const std::string& nom, TypeDevice t);
     std::string nom() const;
     std::string type();
+    std::string idLocation() const;
 
 private:
     inline static int count = 0;
     std::string idMateriel_;
     std::string nom_;
     TypeDevice type_;
-    // Emplacement localisation_;
+    std::string idLocalisation_;
 
 };
 
