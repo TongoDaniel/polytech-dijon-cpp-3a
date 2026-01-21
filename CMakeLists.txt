@@ -13,6 +13,7 @@ endif()
 
 add_executable(polytech-dijon-cpp-3a
   src/main.cpp
+  src/gestion.cpp
 )
 
 # Si tu utilises include/
