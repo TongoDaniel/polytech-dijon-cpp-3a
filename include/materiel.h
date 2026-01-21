@@ -19,6 +19,8 @@ public:
     std::string type();
 
 private:
+    inline static int count = 0;
+    std::string idMateriel_;
     std::string nom_;
     TypeDevice type_;
     // Emplacement localisation_;

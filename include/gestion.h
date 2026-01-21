@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "materiel.h"
+#include "salle.h"
 
 class Gestion{
 public:
@@ -11,7 +12,7 @@ public:
 
 private:
     // Inventaire inventaire_;
-    // std::vector<Salle> salles_;
+    std::vector<Salle> salles_;
     std::vector<Materiel> materiels_;
 };
 

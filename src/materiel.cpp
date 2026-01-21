@@ -1,6 +1,7 @@
 #include "../include/materiel.h"
 
 Materiel::Materiel(const std::string& nom, TypeDevice t): nom_(nom), type_(t){
+    idMateriel_ = "M" + std::to_string(++count);
 }
 
 std::string Materiel::nom() const{
