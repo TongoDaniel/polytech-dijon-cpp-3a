@@ -3,9 +3,13 @@
 
 
 int main(){
-    Materiel materiel1("Souris");
-
+    Materiel materiel1("Souris", static_cast<TypeDevice>(1));
     std::cout << materiel1.nom() << std::endl;
+    std::cout << materiel1.type() << std::endl;
+    
+    // type = new PosteDeTravail("Ubuntu");
+    // std::cout << type << std::endl;
+
 
 /*     int input=-1;
     while(input != 0){
