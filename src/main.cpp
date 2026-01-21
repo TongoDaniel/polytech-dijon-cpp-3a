@@ -3,15 +3,15 @@
 
 
 int main(){
+    Gestion LeinInv;
+    std::cout << LeinInv.inventaire() << std::endl;
+
     Materiel materiel1("Souris", static_cast<TypeDevice>(1));
     std::cout << materiel1.nom() << std::endl;
     std::cout << materiel1.type() << std::endl;
 
     Salle salle1("Salle 101", static_cast<TypeSalle>(0));
     std::cout << salle1 << std::endl;
-    
-    // type = new PosteDeTravail("Ubuntu");
-    // std::cout << type << std::endl;
 
 
 /*     int input=-1;

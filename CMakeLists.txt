@@ -16,6 +16,7 @@ add_executable(polytech-dijon-cpp-3a
   src/gestion.cpp
   src/materiel.cpp
   src/salle.cpp
+  src/inventaire.cpp
 )
 
 # Si tu utilises include/
