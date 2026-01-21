@@ -2,6 +2,7 @@
 #define GESTION_H
 
 #include <vector>
+#include "materiel.h"
 
 class Gestion{
 public:
@@ -11,7 +12,7 @@ public:
 private:
     // Inventaire inventaire_;
     // std::vector<Salle> salles_;
-    // std::vector<Materiel> materiels_;
+    std::vector<Materiel> materiels_;
 };
 
-#endif
+#endif // GESTION_H

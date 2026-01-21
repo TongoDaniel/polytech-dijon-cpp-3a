@@ -1,13 +1,16 @@
 #include <iostream>
 #include "../include/gestion.h"
 
-int main(){
-    Gestion LeinInv;
 
-    int input=-1;
+int main(){
+    Materiel materiel1("Souris");
+
+    std::cout << materiel1.nom() << std::endl;
+
+/*     int input=-1;
     while(input != 0){
         std::cout << "***************************************" << std::endl;
-        std::cout << "*\tBienvenue chez LeinInv:                         *" << std::endl;
+        std::cout << "*\tBienvenue chez LeinInv:           *" << std::endl;
         std::cout << "***************************************" << std::endl;
         
         std::cout << "->Inventaire" << std::endl;
@@ -30,6 +33,6 @@ int main(){
         
 
     }
-    
+     */
     return 0;
 }
