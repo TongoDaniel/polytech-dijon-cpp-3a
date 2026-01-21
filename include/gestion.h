@@ -13,6 +13,13 @@ public:
     std::vector<Salle>& salles();
     std::vector<Materiel>& materiels();
 
+    void addSalle(const Salle& salle);
+    void listSalles() const;
+    void listMaterielsBySalle(const std::string& idSalle) const;
+    bool salleExist(const std::string& idSalle);
+    
+
+
 
 private:
     Inventaire inventaire_;

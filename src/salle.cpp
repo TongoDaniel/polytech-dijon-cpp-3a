@@ -17,6 +17,6 @@ std::string Salle::typeName() const{
 }
 
 std::ostream& operator<<(std::ostream& os, const Salle& salle){
-    os << "Salle ID: " << salle.idSalle_ << ", Nom: " << salle.nom_ << ", Type: " << salle.typeName();
+    os << "-> Salle ID: " << salle.idSalle_ << ", Nom: " << salle.nom_ << ", Type: " << salle.typeName();
     return os;
 }
